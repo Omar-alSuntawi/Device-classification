@@ -34,10 +34,12 @@
   4. src/main/java/omar/deviceapi/ -->
      
     1. DeviceApiApplication.java --> which is the first file to run (main class)
+    
     2. model/Device.java --> Declaration of Device entity with set and get functionss for each variable.
     3. repository/DeviceRepository.java --> Extended to the JPA repository which provides functionalies to do with CRUD operations on the database.
     4. controller/DeviceController.java --> Which is the main drive in which handling of web requests (GET,POST) and their routes.
     5. service/DeviceService.java --> In which the logic for the endpoints are defined.
+    
     6. resttemplateconfig/restTemplateConfig.java --> Definition of a bean for RestTemplate module(used to get the response from Python api).
     7. controller/CSVController.java --> A controller class to test reading from test.csv in resources.
     8. service/CSVService.java --> in which the logic for reading CSV from resources is implemented.
